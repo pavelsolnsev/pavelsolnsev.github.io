@@ -1,0 +1,75 @@
+/* ------ Specification ------ */
+
+body {
+  margin: 0;
+
+}
+
+.wrapper * {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 852px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+h1 {
+  font-size: 24px;
+  font-family: 'TimesNewRomanPS-BoldMT';
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+}
+
+h2 {
+  color: #e0332a;
+  font-size: 64px;
+  font-family: 'StreetbrushW01-Regular';
+  margin-top: -17px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+a, a:hover, a:active {
+  text-decoration: none;
+}
+
+ul, li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+a, button, input {
+  transition: all 0.5s ease;
+}
+
+input, input:hover, input:focus, input:active,
+button, button:hover, button:focus, button:active
+
+ {
+  outline: none;
+}
+
+.wrapper {
+  overflow: hidden;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+}
+
